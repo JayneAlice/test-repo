@@ -1,6 +1,7 @@
 from django.db import models
 
 # Create your models here.
+<<<<<<< HEAD
 
 
 # deklaracja statycznej listy wyboru do wykorzystania w klasie modelu
@@ -30,3 +31,5 @@ class Person(models.Model):
 
     def __str__(self):
         return self.name
+=======
+>>>>>>> 9a23bf6 (creared basic django project)
