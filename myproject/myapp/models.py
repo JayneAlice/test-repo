@@ -12,14 +12,12 @@ SHIRT_SIZES = (
         ('L', 'Large'),
     )
 
-
 class Team(models.Model):
     name = models.CharField(max_length=60)
     country = models.CharField(max_length=2)
     website = models.URLField(null=True)
     def __str__(self):
         return f"{self.name}"
-
 
 class Person(models.Model):
 
