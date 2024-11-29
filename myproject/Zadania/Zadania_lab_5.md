@@ -1,5 +1,5 @@
 ## zadanie 1
-#### Otworzennie shell i import
+#### Otworzenie shell i import
 ``` python
 >>> python manage.py shell
 >>> from myapp.models import Person, Team
