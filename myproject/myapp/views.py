@@ -39,6 +39,6 @@ def team_list(request):
 
     return render(request,
               "myapp/team/list.html",
-              {'teams': Team})
+              {'teams': teams})
 
 
